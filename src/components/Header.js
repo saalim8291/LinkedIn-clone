@@ -22,42 +22,45 @@ const Header = () => {
           <NavListWrap>
             <NavList className="active">
               <a>
-                <img src="/images/nav-home.svg" alt="nav-home icon" />
+                <img src="/images/nav-home.svg" alt="nav-home-icon" />
                 <span>Home</span>
               </a>
             </NavList>
 
             <NavList>
               <a>
-                <img src="/images/nav-network.svg" alt="nav-network icon" />
+                <img src="/images/nav-network.svg" alt="nav-network-icon" />
                 <span>My Network</span>
               </a>
             </NavList>
 
             <NavList>
               <a>
-                <img src="/images/nav-jobs.svg" alt="nav-jobs icon" />
+                <img src="/images/nav-jobs.svg" alt="nav-jobs-icon" />
                 <span>Jobs</span>
               </a>
             </NavList>
 
             <NavList>
               <a>
-                <img src="/images/nav-messaging.svg" alt="nav-messaging icon" />
+                <img src="/images/nav-messaging.svg" alt="nav-messaging-icon" />
                 <span>Messaging</span>
               </a>
             </NavList>
 
             <NavList>
               <a>
-                <img src="/images/nav-notifications.svg" alt="" />
+                <img
+                  src="/images/nav-notifications.svg"
+                  alt="nav-notifications-icon"
+                />
                 <span>Notifications</span>
               </a>
             </NavList>
 
             <User>
               <a>
-                <img src="/images/user.svg" alt="user image" />
+                <img src="/images/user.svg" alt="user-icon" />
                 <span>Me</span>
                 <img src="/images/down-icon.svg" alt="down-icon" />
               </a>
@@ -68,7 +71,7 @@ const Header = () => {
             </User>
             <Work>
               <a>
-                <img src="/images/nav-work.svg" alt="nav-work" />
+                <img src="/images/nav-work.svg" alt="nav-work-icon" />
                 <span>
                   Work
                   <img src="/images/down-icon.svg" alt="down-icon" />
@@ -222,6 +225,8 @@ const SignOut = styled.div`
   border-radius: 0 0 5px 5px;
   width: 100px;
   height: 40px;
+  font-size: 16px;
+  transition-duration: 167ms;
   text-align: center;
   display: none;
 `;

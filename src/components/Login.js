@@ -6,7 +6,7 @@ const Login = () => {
     <Container>
       <Nav>
         <a href="/">
-          <img src="/images/login-logo.svg" />
+          <img src="/images/login-logo.svg" alt="login-logo" />
         </a>
         <div>
           <Join>Join now</Join>
@@ -16,11 +16,11 @@ const Login = () => {
       <Section>
         <Hero>
           <h1>Welcome to your professional community</h1>
-          <img src="/images/login-hero.svg" />
+          <img src="/images/login-hero.svg" alt="login-hero-icon" />
         </Hero>
         <Form>
           <Google>
-            <img src="/images/google.svg" alt="" />
+            <img src="/images/google.svg" alt="google-icon" />
             Sign in with Google
           </Google>
         </Form>
