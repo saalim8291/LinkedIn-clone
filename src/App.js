@@ -1,4 +1,3 @@
-import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Header from "./components/Header";
@@ -10,10 +9,10 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Login} />
-          <Route path="/home">
+          {/* <Route path="/home">
             <Header />
-            {/* <Home /> */}
-          </Route>
+            <Home />
+          </Route> */}
         </Switch>
       </Router>
     </div>
